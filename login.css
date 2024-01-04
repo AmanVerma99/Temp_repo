@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+*::selection{
+    color: azure;
+    background-color: black ;
+} */
+
+body{
+    background: url("https://hitfigure.com/wp-content/uploads/2012/03/login-background.jpg");
+    background-size:cover;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+}
+
+.navlogo{
+    color: azure;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+    margin: 0 25px ;
+}
+
+.link:hover, .active{
+    border-bottom: 2px solid wheat;
+}
+
+.nav-button .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background-color: wheat;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: burlywood;
+}
+
+.input-box .input-feild{
+    opacity: 0.5;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 15px;
+    width: 100%;
+
+}
+
+/* .input-box1{
+    
+} */
+
+/* .two-form{
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.formbox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+.name{
+    display: flex;
+}
+
+.top span{
+    color: aliceblue;
+    margin-left: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 30px;
+    gap: 5px;
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+    color: aliceblue;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
